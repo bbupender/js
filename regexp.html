@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript RegExp constructor property</title>
+</head>
+<body>
+    <script type="text/Javascript">
+// var re = new RegExp("string");
+// document.write("re.constructor is :" + re.constructor)
+var str="javascript is an intersting scripting language";
+var re=new RegExp("script","g");
+var result=re.toString(str);
+document.write("Test1 - returned value:"+result);
+re = RegExp("/","g");
+var result=re.toString(str);
+document.write("<br/>Test2 - returned value :" + result);
+
+
+
+    </script>
+
+    
+    
+</body>
+</html>

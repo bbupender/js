@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>
+            Change the html content
+        </h1>
+        <h2 id="content">Hello Guest!</h2>
+        <h3>Welcome to java Script</h3>
+        <input type="text" id="txtname" name="name1"/>
+        <button type="button" onclick='document.getElementById("content"); getData();'>clickk
+             </button>
+    </body>
+    <script>
+        function getData(){
+            alert(document.getElementsByName("name1")[0].value);
+        }
+
+    </script>
+</html>
